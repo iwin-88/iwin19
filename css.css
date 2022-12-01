@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (min-width: 320px) and (max-width: 480px){
+    header .main-box{
+        width: 100%;
+        padding: 5px !important;
+    }
+    header .main-box .open-menu{
+        display: block;
+    }
+    header .main-box .menu{
+        width: 0%;
+        height: 100%;
+        background-color: #fff;
+        transition: all 0.2s;
+        overflow-x: hidden;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 200;
+    }
+    header .main-box .menu .close-menu{
+        display: block;
+    }
+    header .main-box .menu ul li{
+        width: 100%;
+    }
+    header .main-box .menu ul li a{
+        font-size: 14px;
+    }
+
+    .blog{
+        width: 100%;
+        padding: 0px 5px !important;
+    }
+    .blog h1,
+    .blog h2{
+        font-size: 18px;
+        padding: 0px !important;
+        text-align: center;
+    }
+    .blog p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .blog .main-box{
+        padding: 5px !important;
+    }
+    .blog .blog-grid-1{
+        display: inline-block;
+        width: 100%;
+    }
+    .blog .blog-grid-1 .col-span-3{
+        width: 33.3%;
+        float: left;
+        margin: 5px 0px;
+    }
+    .blog .blog-grid-1 .col-span-3 .box{
+        width: 98%;
+        margin: auto;
+        padding: 5px !important;
+    }
+    .blog .blog-grid-1 .col-span-3 .box .btn{
+        padding: 3px !important;
+        font-size: 12px;
+        margin-top: 5px !important;
+    }
+    .blog .blog-grid-2{
+        display: inline-block;
+        width: 100%;
+    }
+    .blog .blog-grid-2 .col-span-4{
+        width: 33.3%;
+        float: left;
+        margin: 5px 0px;
+    }
+    .blog .blog-grid-2 .col-span-4 .box{
+        width: 95%;
+        margin: auto;
+        padding: 5px !important;
+    }
+
+    footer .main-box{
+        width: 100%;
+        padding: 5px !important;
+    }
+    footer .main-box .grid{
+        display: inline-block;
+        width: 100%;
+    }
+    footer .main-box .grid .col-span-4 h1,
+    footer .main-box .grid .col-span-2 h1{
+        text-align: center;
+        font-size: 18px;
+    }
+    footer .main-box .grid .col-span-4 p,
+    footer .main-box .grid .col-span-2 p{
+        text-align: center;
+        font-size: 14px;
+    }
+    footer .main-box .grid .col-span-2 .link ul li{
+        text-align: center;
+    }
+    footer .main-box .grid .col-span-2 .link ul li a{
+        font-size: 14px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    header .main-box{
+        width: 100%;
+        padding: 5px !important;
+    }
+    header .main-box .open-menu{
+        display: block;
+    }
+    header .main-box .menu{
+        width: 0%;
+        height: 100%;
+        background-color: #fff;
+        transition: all 0.2s;
+        overflow-x: hidden;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 200;
+    }
+    header .main-box .menu .close-menu{
+        display: block;
+    }
+    header .main-box .menu ul li{
+        width: 100%;
+    }
+    header .main-box .menu ul li a{
+        font-size: 14px;
+    }
+
+    .blog{
+        width: 100%;
+        padding: 0px 5px !important;
+    }
+    .blog h1,
+    .blog h2{
+        font-size: 18px;
+        padding: 0px !important;
+        text-align: center;
+    }
+    .blog p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .blog .main-box{
+        padding: 5px !important;
+    }
+    .blog .blog-grid-1{
+        display: inline-block;
+        width: 100%;
+    }
+    .blog .blog-grid-1 .col-span-3{
+        width: 33.3%;
+        float: left;
+        margin: 5px 0px;
+    }
+    .blog .blog-grid-1 .col-span-3 .box{
+        width: 98%;
+        margin: auto;
+        padding: 5px !important;
+    }
+    .blog .blog-grid-1 .col-span-3 .box .btn{
+        padding: 3px !important;
+        font-size: 12px;
+        margin-top: 5px !important;
+    }
+    .blog .blog-grid-2{
+        display: inline-block;
+        width: 100%;
+    }
+    .blog .blog-grid-2 .col-span-4{
+        width: 33.3%;
+        float: left;
+        margin: 5px 0px;
+    }
+    .blog .blog-grid-2 .col-span-4 .box{
+        width: 95%;
+        margin: auto;
+        padding: 5px !important;
+    }
+
+    footer .main-box{
+        width: 100%;
+        padding: 5px !important;
+    }
+    footer .main-box .grid{
+        display: inline-block;
+        width: 100%;
+    }
+    footer .main-box .grid .col-span-4,
+    footer .main-box .grid .col-span-2{
+        width: 50%;
+        float: left;
+    }
+    footer .main-box .grid .col-span-4 h1,
+    footer .main-box .grid .col-span-2 h1{
+        text-align: center;
+        font-size: 18px;
+    }
+    footer .main-box .grid .col-span-4 p,
+    footer .main-box .grid .col-span-2 p{
+        text-align: center;
+        font-size: 14px;
+    }
+    footer .main-box .grid .col-span-2 .link ul li{
+        text-align: center;
+    }
+    footer .main-box .grid .col-span-2 .link ul li a{
+        font-size: 14px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    header .main-box .logo{
+        width: 100px;
+    }
+    header .main-box .menu ul li a{
+        font-size: 10px;
+        padding: 3px;
+        font-weight: bold;
+    }
+
+    .blog{
+        width: 100%;
+        padding: 0px 5px !important;
+    }
+    .blog h1,
+    .blog h2{
+        font-size: 18px;
+        padding: 0px !important;
+        text-align: center;
+    }
+    .blog p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .blog .main-box{
+        padding: 5px !important;
+    }
+    .blog .blog-grid-1{
+        display: inline-block;
+        width: 100%;
+    }
+    .blog .blog-grid-1 .col-span-3{
+        width: 20%;
+        float: left;
+        margin: 5px 0px;
+    }
+    .blog .blog-grid-1 .col-span-3 .box{
+        width: 98%;
+        margin: auto;
+        padding: 5px !important;
+    }
+    .blog .blog-grid-1 .col-span-3 .box .btn{
+        padding: 3px !important;
+        font-size: 12px;
+        margin-top: 5px !important;
+    }
+    .blog .blog-grid-2{
+        display: inline-block;
+        width: 100%;
+    }
+    .blog .blog-grid-2 .col-span-4{
+        width: 33.3%;
+        float: left;
+        margin: 5px 0px;
+    }
+    .blog .blog-grid-2 .col-span-4 .box{
+        width: 95%;
+        margin: auto;
+        padding: 5px !important;
+    }
+
+    footer .main-box{
+        width: 100%;
+        padding: 5px !important;
+    }
+    footer .main-box .grid{
+        display: inline-block;
+        width: 100%;
+    }
+    footer .main-box .grid .col-span-4,
+    footer .main-box .grid .col-span-2{
+        width: 50%;
+        float: left;
+    }
+    footer .main-box .grid .col-span-4 h1,
+    footer .main-box .grid .col-span-2 h1{
+        text-align: center;
+        font-size: 18px;
+    }
+    footer .main-box .grid .col-span-4 p,
+    footer .main-box .grid .col-span-2 p{
+        text-align: center;
+        font-size: 14px;
+    }
+    footer .main-box .grid .col-span-2 .link ul li{
+        text-align: center;
+    }
+    footer .main-box .grid .col-span-2 .link ul li a{
+        font-size: 14px;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1280px){
+    
+}
